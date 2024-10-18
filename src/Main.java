@@ -18,6 +18,6 @@ public class Main {
                 (monthlyInterestRate * (Math.pow(1+ monthlyInterestRate,numberOfPayment ))) /
                 ((Math.pow( 1 + monthlyInterestRate,numberOfPayment))-1);
         System.out.println("Monthly payment is:" + NumberFormat.getCurrencyInstance().format(monthlyPayment));
-        System.out.println("total payment:" + NumberFormat.getCurrencyInstance().format((monthlyPayment*numberOfPayment)));
+        //System.out.println("total payment:" + NumberFormat.getCurrencyInstance().format((monthlyPayment*numberOfPayment)));
     }
 }
